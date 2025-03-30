@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ff4081;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+select, button {
+    margin: 10px;
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+select {
+    background-color: white;
+    outline: none;
+}
+
+button {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #e03672;
+}
+
+.playlist {
+    margin-top: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    min-width: 250px;
+}
+
+.playlist-link {
+    display: inline-block;
+    background-color: #ff4081;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.playlist-link:hover {
+    background-color: #e03672;
+}
+
+#playlist {
+    margin-top: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    min-width: 250px;
+}
+
+iframe {
+    border-radius: 10px;
+    max-width: 100%;
+}
