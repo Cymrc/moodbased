@@ -29,6 +29,8 @@ The project is comprised of three main files:.
 
 ├── script.js     # The JavaScript logic for fetching the playlist link.
 
+└── music.png
+
 └── styles.css    # The CSS for styling the application.
 
 ---
